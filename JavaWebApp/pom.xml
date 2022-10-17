@@ -54,7 +54,7 @@
 	<distributionManagement>
     <snapshotRepository>
       <id>nexusdeploymentrepo</id>
-      <url>http://http://34.212.148.199/3:8081/repository/maven-snapshots/</url> <!-- Update the IP/Address to Your Nexus VM IP -->
+      <url>http://http://34.212.148.199/:8081/repository/maven-snapshots/</url> <!-- Update the IP/Address to Your Nexus VM IP -->
     </snapshotRepository>											  <!-- Mmake sure to create the "maven-snapshots" repo in Nexus -->
 	<repository>
 	  <id>nexusdeploymentrepo</id>
